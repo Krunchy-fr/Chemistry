@@ -1,0 +1,1 @@
+document.querySelector('.menu')?.addEventListener('click',()=>{const n=document.querySelector('.nav nav');if(!n)return;n.classList.toggle('show')});
