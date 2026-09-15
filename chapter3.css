@@ -1,1 +1,1051 @@
-body{font-family:Inter,"Noto Sans Bengali",sans-serif}.chapter-hero{min-height:650px}.eng-title{color:#9b94b7;font:600 13px "Space Grotesk";letter-spacing:.08em}.hero-sub{max-width:620px!important;color:#85868f!important;line-height:1.9!important}.source-note{margin-top:24px;color:#4f5059;font-size:8px;letter-spacing:.1em}.atom-hero{width:420px;height:420px;position:relative;display:grid;place-items:center}.atom-hero .nucleus{width:72px;height:72px;border:1px solid #8b7cff;border-radius:50%;background:#17131f;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#b4adff;z-index:3;font-size:10px;box-shadow:0 0 60px rgba(139,124,255,.2)}.orbit{position:absolute;border:1px solid #302d3e;border-radius:50%}.oa{width:140px;height:140px}.ob{width:260px;height:260px}.oc{width:370px;height:180px;transform:rotate(45deg)}.el{position:absolute;width:9px;height:9px;border-radius:50%;background:#a69cff;box-shadow:0 0 18px #8b7cff}.e1{top:29%}.e2{right:18%;top:49%}.e3{left:18%;bottom:25%}.atom-hero span{position:absolute;bottom:10px;color:#555761;font-size:7px;letter-spacing:.16em}.map-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:35px}.map-grid a{padding:18px;border:1px solid #292a34;border-radius:12px;background:#0f1015;color:#eee;text-decoration:none;min-height:115px}.map-grid span{display:block;color:#9a90ed;font:700 10px "Space Grotesk"}.map-grid b{display:block;font-size:11px;margin:12px 0 4px}.map-grid small{color:#666873;font-size:8px}.lesson{scroll-margin-top:30px}.two-col,.number-grid,.mass-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:35px}.concept,.definition,.rules>div,.number-card,.mass-grid>div,.use-grid>div{border:1px solid #292a34;background:#0f1015;border-radius:14px;padding:24px}.concept h3,.mass-grid h3{font:600 20px "Space Grotesk"}.concept p,.definition p,.mass-grid p,.use-grid p{font-size:11px;color:#7b7c86;line-height:1.9}.chip-row{display:flex;flex-wrap:wrap;gap:7px;margin-top:18px}.chip-row span,.subshell span{padding:7px 9px;border:1px solid #302c45;border-radius:7px;color:#aaa2ff;font-size:8px}.ratio{margin-top:20px;border-left:2px solid #8b7cff;padding:12px;color:#777984;font-size:11px}.ratio strong{color:#aaa2ff}.definition{display:flex;gap:25px;align-items:center;margin-top:12px}.big{font:700 18px "Space Grotesk";color:#aaa2ff;min-width:120px}.formula-flow{margin-top:20px;padding:24px;border:1px solid #292a34;border-radius:14px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;background:#0d0e12}.formula-flow span,.formula-flow strong{padding:13px 16px;border:1px solid #39334e;border-radius:10px;color:#b0a7ff}.formula-flow b{color:#555761}.formula-flow em{font-size:8px;color:#666873;margin-right:15px}.rules{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:35px}.rules span{color:#9c92ef;font:700 12px "Space Grotesk"}.rules p{font-size:10px;color:#7b7c86;line-height:1.8}.rules b{font-size:9px;color:#aaa2ff}.formula-cards{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:35px}.formula-cards div{padding:30px 18px;border:1px solid #292a34;background:#0f1015;border-radius:14px;text-align:center}.formula-cards strong{display:block;font:700 30px "Space Grotesk";color:#aaa2ff}.formula-cards small{color:#686a74;font-size:8px}.micro,.lead{color:#777984;font-size:11px;line-height:1.9;margin-top:15px}.particle-lab{display:grid;grid-template-columns:1fr 1fr;gap:35px;margin-top:35px}.atom-card{height:330px;position:relative;display:grid;place-items:center}.core{width:70px;height:70px;border-radius:50%;border:1px solid #8b7cff;background:#17131f;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:5px;color:#aaa2ff;z-index:2}.shell{position:absolute;border:1px solid #38334b;border-radius:50%}.s1{width:135px;height:135px}.s2{width:250px;height:250px}.dot{position:absolute;width:23px;height:23px;border-radius:50%;border:0;background:#a69cff;color:#121117;z-index:3}.ep{top:20%;left:63%}.ep2{bottom:19%;left:23%}.particle-tabs{display:flex;gap:7px}.particle-tabs button{border:1px solid #292a34;background:#111219;color:#777984;border-radius:7px;padding:8px 10px;font-size:9px;cursor:pointer}.particle-tabs button.active{color:#aaa2ff;border-color:#6258c9}.particle-lab article{margin-top:12px;border:1px solid #292a34;background:#0f1015;border-radius:14px;padding:24px}.particle-lab article small{color:#9a90ed;font-size:8px}.particle-lab article h3{font:600 24px "Space Grotesk";margin:8px 0}.particle-lab article p{font-size:11px;color:#777984;line-height:1.9}.particle-lab article b{font-size:8px;color:#575963}.particle-table{margin-top:18px;border:1px solid #292a34;border-radius:12px;overflow:hidden}.particle-table div{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;padding:12px 14px;border-bottom:1px solid #22232a;font-size:9px}.particle-table div:last-child{border-bottom:0}.particle-table b{color:#aaa2ff}.number-card>span{font:700 30px "Space Grotesk";color:#aaa2ff}.number-card h3{font:600 20px "Space Grotesk"}.number-card p,.number-card small{color:#777984;font-size:10px}.equation{display:inline-block;margin-top:12px;margin-right:5px;padding:9px 11px;background:#15131d;border:1px solid #332e48;border-radius:7px;color:#aaa2ff;font:600 10px "Space Grotesk"}.notation{margin-top:18px;padding:20px;border:1px solid #292a34;background:#0f1015;border-radius:14px;display:flex;gap:25px;align-items:center}.nuclide{font:700 34px "Space Grotesk";color:#aaa2ff}.nuclide sup,.nuclide sub{font-size:13px}.notation p{font-size:10px;color:#777984}.model-tabs{display:flex;gap:8px;margin:35px 0 12px}.model-tabs button{padding:10px 13px;border:1px solid #292a34;background:#111219;color:#777984;border-radius:7px;cursor:pointer;font-size:9px}.model-tabs button.active{border-color:#6258c9;color:#aaa2ff}.model-stage{display:grid;grid-template-columns:1fr 1fr;border:1px solid #292a34;background:#0f1015;border-radius:14px;min-height:390px}.model-drawing{position:relative;display:grid;place-items:center}.md-core{width:55px;height:55px;border-radius:50%;border:1px solid #8b7cff;background:#17131f;color:#aaa2ff;display:grid;place-items:center;z-index:2}.md-orbit{position:absolute;border:1px solid #3a354d;border-radius:50%}.m1{width:180px;height:180px}.m2{width:270px;height:270px}.md-electron{position:absolute;width:9px;height:9px;background:#a69cff;border-radius:50%;box-shadow:0 0 15px #8b7cff}.me1{top:26%}.me2{right:22%;top:50%}.model-text{padding:35px}.model-text small{color:#9a90ed;font-size:9px}.model-text h3{font:600 24px "Space Grotesk";margin:8px 0}.model-text p,.model-text li{font-size:10px;color:#777984;line-height:1.9}.limitation{margin-top:12px;padding:16px;border-left:2px solid #8b7cff;background:#121019;color:#777984;font-size:10px}.limitation b{color:#aaa2ff}.config-lab{display:grid;grid-template-columns:280px 1fr;gap:35px;margin-top:35px;padding:25px;border:1px solid #292a34;background:#0f1015;border-radius:14px}.element-box{display:flex;flex-direction:column;align-items:flex-start}.element-box small{color:#777984;font-size:8px}.element-box input{width:100%;accent-color:#8b7cff}.element-box output{align-self:flex-end;color:#aaa2ff;font:700 15px "Space Grotesk"}.element-box strong{font:700 60px "Space Grotesk";color:#aaa2ff}.element-box span{color:#777984;font-size:11px}.shells{display:flex;gap:18px;align-items:end;min-height:190px}.shell-view{width:105px;height:105px;border:1px solid #4a435f;border-radius:50%;display:grid;place-items:center;position:relative;color:#aaa2ff;font:700 11px "Space Grotesk"}.shell-view span{font-size:7px;color:#5e6069;position:absolute;bottom:-18px}.config-readout{margin-top:25px;font:700 24px "Space Grotesk";color:#aaa2ff}.config-lab p,.subshell p{color:#777984;font-size:10px;line-height:1.8}.subshell{margin-top:12px;padding:20px;border:1px solid #292a34;border-radius:14px}.subshell div{display:flex;flex-wrap:wrap;gap:7px}.isotope-definition{display:flex;align-items:center;gap:30px;margin-top:35px;padding:25px;border:1px solid #292a34;background:#0f1015;border-radius:14px}.isotope-symbol{font:700 38px "Space Grotesk";color:#aaa2ff}.isotope-definition p{color:#777984;font-size:11px;line-height:1.9}.isotope-row{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:12px}.isotope-row div{text-align:center;padding:22px;border:1px solid #292a34;border-radius:12px;background:#101116}.isotope-row b{display:block;font:700 28px "Space Grotesk";color:#aaa2ff}.isotope-row small,.isotope-row span{display:block;color:#686a74;font-size:8px;margin-top:6px}.example{margin-top:18px;border:1px solid #4a4163;background:#14121c;padding:22px;border-radius:12px}.example small{color:#9a90ed;font-size:8px}.example h3{font:600 20px "Space Grotesk"}.example p{color:#777984;font-size:10px}.math{font:600 15px "Space Grotesk";color:#aaa2ff}.math strong{font-size:20px}.callout{margin-top:15px;padding:14px;border-left:2px solid #8b7cff;background:#14121c;color:#777984;font-size:10px}.average-lab{margin-top:18px;padding:20px;border:1px solid #292a34;border-radius:12px}.average-lab label{display:block;color:#777984;font-size:9px}.average-lab output{float:right;color:#aaa2ff;font:700 16px "Space Grotesk"}.average-lab input{width:100%;accent-color:#8b7cff;margin-top:12px}.average-lab p{color:#555761;font-size:9px}.use-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:35px}.use-grid span{color:#9a90ed;font:700 9px "Space Grotesk"}.use-grid h3{font:600 18px "Space Grotesk";margin:7px 0}.warning{border-color:#4b3340!important}.practice-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:35px}.practice-card,.quiz{border:1px solid #292a34;background:#0f1015;border-radius:14px;padding:22px}.practice-card small{color:#9a90ed;font-size:8px}.practice-card h3{font:600 17px "Space Grotesk";line-height:1.5}.answers{display:grid;grid-template-columns:1fr 1fr;gap:7px}.answers button{padding:10px;border:1px solid #292a34;background:#12131a;color:#8b8d96;border-radius:7px;cursor:pointer;font-size:9px}.answers button:hover{border-color:#6258c9;color:#aaa2ff}.feedback,#qFeedback{min-height:18px;color:#aaa2ff;font-size:9px}.quiz{max-width:850px;margin-top:35px}.quiz-top{display:flex;align-items:center;gap:15px;color:#777984;font-size:8px}.bar{height:3px;background:#292a34;flex:1}.bar i{display:block;height:100%;width:16%;background:#8b7cff}.quiz h3{font:600 20px "Space Grotesk";margin:25px 0}.ai{padding-top:50px}.ai-box{display:grid;grid-template-columns:1fr 1fr;gap:25px;padding:35px;border:1px solid #3b3550;background:#111018;border-radius:18px}.ai-box h2{margin-top:10px}.ai-box p{color:#777984;font-size:11px;line-height:1.9}.chat{border:1px solid #292a34;background:#0b0c10;border-radius:12px;padding:18px}.chat b{font:600 12px "Space Grotesk";color:#aaa2ff}.bubble{margin-top:30px;padding:14px;border:1px solid #2e2b3a;border-radius:10px;color:#999ba4;font-size:10px;line-height:1.7}.fake{margin-top:35px;color:#555761;font-size:8px}@media(max-width:850px){.chapter-hero,.model-stage,.ai-box,.config-lab,.particle-lab,.two-col,.number-grid,.mass-grid{grid-template-columns:1fr}.atom-hero{width:100%;height:330px}.map-grid{grid-template-columns:1fr 1fr}.rules,.practice-grid,.use-grid{grid-template-columns:1fr}.formula-cards{grid-template-columns:1fr 1fr}.isotope-row{grid-template-columns:1fr}.shells{justify-content:center}}@media(max-width:520px){.map-grid{grid-template-columns:1fr}.formula-cards{grid-template-columns:1fr}.particle-table div{grid-template-columns:1fr 1fr}.definition,.isotope-definition,.notation{align-items:flex-start;flex-direction:column}.atom-hero{transform:scale(.8);margin-left:-10%}}
+body {
+    font-family: Inter, "Noto Sans Bengali", sans-serif
+}
+
+.chapter-hero {
+    min-height: 650px
+}
+
+.eng-title {
+    color: #9b94b7;
+    font: 600 13px "Space Grotesk";
+    letter-spacing: .08em
+}
+
+.hero-sub {
+    max-width: 620px !important;
+    color: #85868f !important;
+    line-height: 1.9 !important
+}
+
+.source-note {
+    margin-top: 24px;
+    color: #4f5059;
+    font-size: 8px;
+    letter-spacing: .1em
+}
+
+.atom-hero {
+    width: 420px;
+    height: 420px;
+    position: relative;
+    display: grid;
+    place-items: center
+}
+
+.atom-hero .nucleus {
+    width: 72px;
+    height: 72px;
+    border: 1px solid #8b7cff;
+    border-radius: 50%;
+    background: #17131f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #b4adff;
+    z-index: 3;
+    font-size: 10px;
+    box-shadow: 0 0 60px rgba(139, 124, 255, .2)
+}
+
+.orbit {
+    position: absolute;
+    border: 1px solid #302d3e;
+    border-radius: 50%
+}
+
+.oa {
+    width: 140px;
+    height: 140px
+}
+
+.ob {
+    width: 260px;
+    height: 260px
+}
+
+.oc {
+    width: 370px;
+    height: 180px;
+    transform: rotate(45deg)
+}
+
+.el {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #a69cff;
+    box-shadow: 0 0 18px #8b7cff
+}
+
+.e1 {
+    top: 29%
+}
+
+.e2 {
+    right: 18%;
+    top: 49%
+}
+
+.e3 {
+    left: 18%;
+    bottom: 25%
+}
+
+.atom-hero span {
+    position: absolute;
+    bottom: 10px;
+    color: #555761;
+    font-size: 7px;
+    letter-spacing: .16em
+}
+
+.map-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-top: 35px
+}
+
+.map-grid a {
+    padding: 18px;
+    border: 1px solid #292a34;
+    border-radius: 12px;
+    background: #0f1015;
+    color: #eee;
+    text-decoration: none;
+    min-height: 115px
+}
+
+.map-grid span {
+    display: block;
+    color: #9a90ed;
+    font: 700 10px "Space Grotesk"
+}
+
+.map-grid b {
+    display: block;
+    font-size: 11px;
+    margin: 12px 0 4px
+}
+
+.map-grid small {
+    color: #666873;
+    font-size: 8px
+}
+
+.lesson {
+    scroll-margin-top: 30px
+}
+
+.two-col,
+.number-grid,
+.mass-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    margin-top: 35px
+}
+
+.concept,
+.definition,
+.rules>div,
+.number-card,
+.mass-grid>div,
+.use-grid>div {
+    border: 1px solid #292a34;
+    background: #0f1015;
+    border-radius: 14px;
+    padding: 24px
+}
+
+.concept h3,
+.mass-grid h3 {
+    font: 600 20px "Space Grotesk"
+}
+
+.concept p,
+.definition p,
+.mass-grid p,
+.use-grid p {
+    font-size: 11px;
+    color: #7b7c86;
+    line-height: 1.9
+}
+
+.chip-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-top: 18px
+}
+
+.chip-row span,
+.subshell span {
+    padding: 7px 9px;
+    border: 1px solid #302c45;
+    border-radius: 7px;
+    color: #aaa2ff;
+    font-size: 8px
+}
+
+.ratio {
+    margin-top: 20px;
+    border-left: 2px solid #8b7cff;
+    padding: 12px;
+    color: #777984;
+    font-size: 11px
+}
+
+.ratio strong {
+    color: #aaa2ff
+}
+
+.definition {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-top: 12px
+}
+
+.big {
+    font: 700 18px "Space Grotesk";
+    color: #aaa2ff;
+    min-width: 120px
+}
+
+.formula-flow {
+    margin-top: 20px;
+    padding: 24px;
+    border: 1px solid #292a34;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    background: #0d0e12
+}
+
+.formula-flow span,
+.formula-flow strong {
+    padding: 13px 16px;
+    border: 1px solid #39334e;
+    border-radius: 10px;
+    color: #b0a7ff
+}
+
+.formula-flow b {
+    color: #555761
+}
+
+.formula-flow em {
+    font-size: 8px;
+    color: #666873;
+    margin-right: 15px
+}
+
+.rules {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 35px
+}
+
+.rules span {
+    color: #9c92ef;
+    font: 700 12px "Space Grotesk"
+}
+
+.rules p {
+    font-size: 10px;
+    color: #7b7c86;
+    line-height: 1.8
+}
+
+.rules b {
+    font-size: 9px;
+    color: #aaa2ff
+}
+
+.formula-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-top: 35px
+}
+
+.formula-cards div {
+    padding: 30px 18px;
+    border: 1px solid #292a34;
+    background: #0f1015;
+    border-radius: 14px;
+    text-align: center
+}
+
+.formula-cards strong {
+    display: block;
+    font: 700 30px "Space Grotesk";
+    color: #aaa2ff
+}
+
+.formula-cards small {
+    color: #686a74;
+    font-size: 8px
+}
+
+.micro,
+.lead {
+    color: #777984;
+    font-size: 11px;
+    line-height: 1.9;
+    margin-top: 15px
+}
+
+.particle-lab {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+    margin-top: 35px
+}
+
+.atom-card {
+    height: 330px;
+    position: relative;
+    display: grid;
+    place-items: center
+}
+
+.core {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid #8b7cff;
+    background: #17131f;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: #aaa2ff;
+    z-index: 2
+}
+
+.shell {
+    position: absolute;
+    border: 1px solid #38334b;
+    border-radius: 50%
+}
+
+.s1 {
+    width: 135px;
+    height: 135px
+}
+
+.s2 {
+    width: 250px;
+    height: 250px
+}
+
+.dot {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    border: 0;
+    background: #a69cff;
+    color: #121117;
+    z-index: 3
+}
+
+.ep {
+    top: 20%;
+    left: 63%
+}
+
+.ep2 {
+    bottom: 19%;
+    left: 23%
+}
+
+.particle-tabs {
+    display: flex;
+    gap: 7px
+}
+
+.particle-tabs button {
+    border: 1px solid #292a34;
+    background: #111219;
+    color: #777984;
+    border-radius: 7px;
+    padding: 8px 10px;
+    font-size: 9px;
+    cursor: pointer
+}
+
+.particle-tabs button.active {
+    color: #aaa2ff;
+    border-color: #6258c9
+}
+
+.particle-lab article {
+    margin-top: 12px;
+    border: 1px solid #292a34;
+    background: #0f1015;
+    border-radius: 14px;
+    padding: 24px
+}
+
+.particle-lab article small {
+    color: #9a90ed;
+    font-size: 8px
+}
+
+.particle-lab article h3 {
+    font: 600 24px "Space Grotesk";
+    margin: 8px 0
+}
+
+.particle-lab article p {
+    font-size: 11px;
+    color: #777984;
+    line-height: 1.9
+}
+
+.particle-lab article b {
+    font-size: 8px;
+    color: #575963
+}
+
+.particle-table {
+    margin-top: 18px;
+    border: 1px solid #292a34;
+    border-radius: 12px;
+    overflow: hidden
+}
+
+.particle-table div {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1fr 1fr;
+    padding: 12px 14px;
+    border-bottom: 1px solid #22232a;
+    font-size: 9px
+}
+
+.particle-table div:last-child {
+    border-bottom: 0
+}
+
+.particle-table b {
+    color: #aaa2ff
+}
+
+.number-card>span {
+    font: 700 30px "Space Grotesk";
+    color: #aaa2ff
+}
+
+.number-card h3 {
+    font: 600 20px "Space Grotesk"
+}
+
+.number-card p,
+.number-card small {
+    color: #777984;
+    font-size: 10px
+}
+
+.equation {
+    display: inline-block;
+    margin-top: 12px;
+    margin-right: 5px;
+    padding: 9px 11px;
+    background: #15131d;
+    border: 1px solid #332e48;
+    border-radius: 7px;
+    color: #aaa2ff;
+    font: 600 10px "Space Grotesk"
+}
+
+.notation {
+    margin-top: 18px;
+    padding: 20px;
+    border: 1px solid #292a34;
+    background: #0f1015;
+    border-radius: 14px;
+    display: flex;
+    gap: 25px;
+    align-items: center
+}
+
+.nuclide {
+    font: 700 34px "Space Grotesk";
+    color: #aaa2ff
+}
+
+.nuclide sup,
+.nuclide sub {
+    font-size: 13px
+}
+
+.notation p {
+    font-size: 10px;
+    color: #777984
+}
+
+.model-tabs {
+    display: flex;
+    gap: 8px;
+    margin: 35px 0 12px
+}
+
+.model-tabs button {
+    padding: 10px 13px;
+    border: 1px solid #292a34;
+    background: #111219;
+    color: #777984;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 9px
+}
+
+.model-tabs button.active {
+    border-color: #6258c9;
+    color: #aaa2ff
+}
+
+.model-stage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid #292a34;
+    background: #0f1015;
+    border-radius: 14px;
+    min-height: 390px
+}
+
+.model-drawing {
+    position: relative;
+    display: grid;
+    place-items: center
+}
+
+.md-core {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 1px solid #8b7cff;
+    background: #17131f;
+    color: #aaa2ff;
+    display: grid;
+    place-items: center;
+    z-index: 2
+}
+
+.md-orbit {
+    position: absolute;
+    border: 1px solid #3a354d;
+    border-radius: 50%
+}
+
+.m1 {
+    width: 180px;
+    height: 180px
+}
+
+.m2 {
+    width: 270px;
+    height: 270px
+}
+
+.md-electron {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    background: #a69cff;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #8b7cff
+}
+
+.me1 {
+    top: 26%
+}
+
+.me2 {
+    right: 22%;
+    top: 50%
+}
+
+.model-text {
+    padding: 35px
+}
+
+.model-text small {
+    color: #9a90ed;
+    font-size: 9px
+}
+
+.model-text h3 {
+    font: 600 24px "Space Grotesk";
+    margin: 8px 0
+}
+
+.model-text p,
+.model-text li {
+    font-size: 10px;
+    color: #777984;
+    line-height: 1.9
+}
+
+.limitation {
+    margin-top: 12px;
+    padding: 16px;
+    border-left: 2px solid #8b7cff;
+    background: #121019;
+    color: #777984;
+    font-size: 10px
+}
+
+.limitation b {
+    color: #aaa2ff
+}
+
+.config-lab {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 35px;
+    margin-top: 35px;
+    padding: 25px;
+    border: 1px solid #292a34;
+    background: #0f1015;
+    border-radius: 14px
+}
+
+.element-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
+}
+
+.element-box small {
+    color: #777984;
+    font-size: 8px
+}
+
+.element-box input {
+    width: 100%;
+    accent-color: #8b7cff
+}
+
+.element-box output {
+    align-self: flex-end;
+    color: #aaa2ff;
+    font: 700 15px "Space Grotesk"
+}
+
+.element-box strong {
+    font: 700 60px "Space Grotesk";
+    color: #aaa2ff
+}
+
+.element-box span {
+    color: #777984;
+    font-size: 11px
+}
+
+.shells {
+    display: flex;
+    gap: 18px;
+    align-items: end;
+    min-height: 190px
+}
+
+.shell-view {
+    width: 105px;
+    height: 105px;
+    border: 1px solid #4a435f;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    position: relative;
+    color: #aaa2ff;
+    font: 700 11px "Space Grotesk"
+}
+
+.shell-view span {
+    font-size: 7px;
+    color: #5e6069;
+    position: absolute;
+    bottom: -18px
+}
+
+.config-readout {
+    margin-top: 25px;
+    font: 700 24px "Space Grotesk";
+    color: #aaa2ff
+}
+
+.config-lab p,
+.subshell p {
+    color: #777984;
+    font-size: 10px;
+    line-height: 1.8
+}
+
+.subshell {
+    margin-top: 12px;
+    padding: 20px;
+    border: 1px solid #292a34;
+    border-radius: 14px
+}
+
+.subshell div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px
+}
+
+.isotope-definition {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 35px;
+    padding: 25px;
+    border: 1px solid #292a34;
+    background: #0f1015;
+    border-radius: 14px
+}
+
+.isotope-symbol {
+    font: 700 38px "Space Grotesk";
+    color: #aaa2ff
+}
+
+.isotope-definition p {
+    color: #777984;
+    font-size: 11px;
+    line-height: 1.9
+}
+
+.isotope-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 12px
+}
+
+.isotope-row div {
+    text-align: center;
+    padding: 22px;
+    border: 1px solid #292a34;
+    border-radius: 12px;
+    background: #101116
+}
+
+.isotope-row b {
+    display: block;
+    font: 700 28px "Space Grotesk";
+    color: #aaa2ff
+}
+
+.isotope-row small,
+.isotope-row span {
+    display: block;
+    color: #686a74;
+    font-size: 8px;
+    margin-top: 6px
+}
+
+.example {
+    margin-top: 18px;
+    border: 1px solid #4a4163;
+    background: #14121c;
+    padding: 22px;
+    border-radius: 12px
+}
+
+.example small {
+    color: #9a90ed;
+    font-size: 8px
+}
+
+.example h3 {
+    font: 600 20px "Space Grotesk"
+}
+
+.example p {
+    color: #777984;
+    font-size: 10px
+}
+
+.math {
+    font: 600 15px "Space Grotesk";
+    color: #aaa2ff
+}
+
+.math strong {
+    font-size: 20px
+}
+
+.callout {
+    margin-top: 15px;
+    padding: 14px;
+    border-left: 2px solid #8b7cff;
+    background: #14121c;
+    color: #777984;
+    font-size: 10px
+}
+
+.average-lab {
+    margin-top: 18px;
+    padding: 20px;
+    border: 1px solid #292a34;
+    border-radius: 12px
+}
+
+.average-lab label {
+    display: block;
+    color: #777984;
+    font-size: 9px
+}
+
+.average-lab output {
+    float: right;
+    color: #aaa2ff;
+    font: 700 16px "Space Grotesk"
+}
+
+.average-lab input {
+    width: 100%;
+    accent-color: #8b7cff;
+    margin-top: 12px
+}
+
+.average-lab p {
+    color: #555761;
+    font-size: 9px
+}
+
+.use-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 35px
+}
+
+.use-grid span {
+    color: #9a90ed;
+    font: 700 9px "Space Grotesk"
+}
+
+.use-grid h3 {
+    font: 600 18px "Space Grotesk";
+    margin: 7px 0
+}
+
+.warning {
+    border-color: #4b3340 !important
+}
+
+.practice-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 35px
+}
+
+.practice-card,
+.quiz {
+    border: 1px solid #292a34;
+    background: #0f1015;
+    border-radius: 14px;
+    padding: 22px
+}
+
+.practice-card small {
+    color: #9a90ed;
+    font-size: 8px
+}
+
+.practice-card h3 {
+    font: 600 17px "Space Grotesk";
+    line-height: 1.5
+}
+
+.answers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7px
+}
+
+.answers button {
+    padding: 10px;
+    border: 1px solid #292a34;
+    background: #12131a;
+    color: #8b8d96;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 9px
+}
+
+.answers button:hover {
+    border-color: #6258c9;
+    color: #aaa2ff
+}
+
+.feedback,
+#qFeedback {
+    min-height: 18px;
+    color: #aaa2ff;
+    font-size: 9px
+}
+
+.quiz {
+    max-width: 850px;
+    margin-top: 35px
+}
+
+.quiz-top {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #777984;
+    font-size: 8px
+}
+
+.bar {
+    height: 3px;
+    background: #292a34;
+    flex: 1
+}
+
+.bar i {
+    display: block;
+    height: 100%;
+    width: 16%;
+    background: #8b7cff
+}
+
+.quiz h3 {
+    font: 600 20px "Space Grotesk";
+    margin: 25px 0
+}
+
+.ai {
+    padding-top: 50px
+}
+
+.ai-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    padding: 35px;
+    border: 1px solid #3b3550;
+    background: #111018;
+    border-radius: 18px
+}
+
+.ai-box h2 {
+    margin-top: 10px
+}
+
+.ai-box p {
+    color: #777984;
+    font-size: 11px;
+    line-height: 1.9
+}
+
+.chat {
+    border: 1px solid #292a34;
+    background: #0b0c10;
+    border-radius: 12px;
+    padding: 18px
+}
+
+.chat b {
+    font: 600 12px "Space Grotesk";
+    color: #aaa2ff
+}
+
+.bubble {
+    margin-top: 30px;
+    padding: 14px;
+    border: 1px solid #2e2b3a;
+    border-radius: 10px;
+    color: #999ba4;
+    font-size: 10px;
+    line-height: 1.7
+}
+
+.fake {
+    margin-top: 35px;
+    color: #555761;
+    font-size: 8px
+}
+
+@media(max-width:850px) {
+
+    .chapter-hero,
+    .model-stage,
+    .ai-box,
+    .config-lab,
+    .particle-lab,
+    .two-col,
+    .number-grid,
+    .mass-grid {
+        grid-template-columns: 1fr
+    }
+
+    .atom-hero {
+        width: 100%;
+        height: 330px
+    }
+
+    .map-grid {
+        grid-template-columns: 1fr 1fr
+    }
+
+    .rules,
+    .practice-grid,
+    .use-grid {
+        grid-template-columns: 1fr
+    }
+
+    .formula-cards {
+        grid-template-columns: 1fr 1fr
+    }
+
+    .isotope-row {
+        grid-template-columns: 1fr
+    }
+
+    .shells {
+        justify-content: center
+    }
+}
+
+@media(max-width:520px) {
+    .map-grid {
+        grid-template-columns: 1fr
+    }
+
+    .formula-cards {
+        grid-template-columns: 1fr
+    }
+
+    .particle-table div {
+        grid-template-columns: 1fr 1fr
+    }
+
+    .definition,
+    .isotope-definition,
+    .notation {
+        align-items: flex-start;
+        flex-direction: column
+    }
+
+    .atom-hero {
+        transform: scale(.8);
+        margin-left: -10%
+    }
+}
