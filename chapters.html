@@ -11,6 +11,24 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* Chapters 01–05 are currently available */
+    .chapter-library>a.chapter:nth-child(-n+5) {
+      opacity: 1 !important;
+      pointer-events: auto !important;
+      cursor: pointer !important;
+      filter: none !important;
+    }
+
+    .chapter-library>a.chapter:nth-child(-n+5) .num {
+      color: var(--accent) !important;
+    }
+
+    .chapter-library>a.chapter:nth-child(-n+5) .open {
+      display: inline !important;
+      color: var(--accent2) !important;
+    }
+  </style>
 </head>
 
 <body>
