@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="bn">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Chapter 04 — পর্যায় সারণি | ChemHub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="chapters-expanded.css">
+    <style>
+        .periodic {
+            display: grid;
+            grid-template-columns: repeat(18, 1fr);
+            gap: 4px;
+            margin-top: 25px
+        }
+
+        .elcell {
+            min-height: 55px;
+            border: 1px solid #292a34;
+            background: #111218;
+            border-radius: 5px;
+            padding: 5px;
+            position: relative
+        }
+
+        .elcell b {
+            display: block;
+            font: 700 13px "Space Grotesk";
+            color: #aaa2ff
+        }
+
+        .elcell small {
+            font-size: 6px;
+            color: #666873
+        }
+
+        .elcell.n {
+            grid-column: span 1
+        }
+
+        .elcell.blank {
+            border: 0;
+            background: transparent
+        }
+
+        .trend {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px
+        }
+
+        .trendbox {
+            padding: 22px;
+            border: 1px solid #292a34;
+            background: #0f1015;
+            border-radius: 14px
+        }
+
+        .trendbar {
+            height: 12px;
+            background: #1b1b22;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 15px 0
+        }
+
+        .trendbar i {
+            display: block;
+            height: 100%;
+            background: #8b7cff
+        }
+
+        .periodic-key {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-top: 14px
+        }
+
+        .periodic-key span {
+            font-size: 7px;
+            padding: 6px 8px;
+            border: 1px solid #343044;
+            border-radius: 6px;
+            color: #aaa2ff
+        }
+
+        .calc {
+            padding: 20px;
+            border: 1px solid #292a34;
+            background: #0f1015;
+            border-radius: 14px
+        }
+
+        .calc input,
+        .calc select {
+            background: #12131a;
+            color: #ddd;
+            border: 1px solid #292a34;
+            border-radius: 7px;
+            padding: 9px;
+            margin: 5px;
+            font-size: 9px
+        }
+
+        .calc button {
+            background: #8b7cff;
+            border: 0;
+            color: #fff;
+            padding: 9px 13px;
+            border-radius: 7px;
+            font-size: 9px
+        }
+
+        .calc-result {
+            margin-top: 12px;
+            color: #aaa2ff;
+            font: 600 13px "Space Grotesk"
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid"></div>
+    <div class="glow glow1"></div>
+    <header class="nav"><a class="logo" href="index.html">⚛ CHEM<span>HUB</span></a>
+        <nav><a href="index.html">Home</a><a class="active" href="chapters.html">Chapters</a><a href="#map">Map</a><a
+                href="#trends">Trends</a><a href="#quiz">Quiz</a></nav><a class="nav-cta" href="chapter5.html">Chapter
+            05 →</a><button class="menu">☰</button>
+    </header>
+    <main>
+        <section class="chapter-hero">
+            <div>
+                <div class="eyebrow">CHAPTER 04 / TEXTBOOK MODE</div>
+                <h1>পর্যায়<br><em>সারণি</em></h1>
+                <p class="eng-title">Periodic Table</p>
+                <p class="hero-sub">মৌল আবিষ্কারের ইতিহাস থেকে আধুনিক পর্যায় সারণি, পর্যায় ও গ্রুপ, ইলেকট্রন বিন্যাস
+                    থেকে অবস্থান নির্ণয়, পর্যায় ধর্মের পরিবর্তন এবং একই গ্রুপের মৌলগুলোর মিল—এই অধ্যায়কে একটি
+                    ইন্টার‌্যাকটিভ learning map হিসেবে সাজানো হয়েছে।</p>
+                <div class="actions"><a class="btn primary" href="#map">Begin Chapter →</a><a class="btn"
+                        href="#quiz">Test Yourself</a></div>
+                <div class="source-note">REFERENCE: Secondary (BV)-2026 • Chemistry • Chapter 04 • textbook pp. 64–86
+                </div>
+            </div>
+            <div class="science-visual">
+                <div class="atom">
+                    <div class="core">P.T.</div>
+                    <div class="ring r1"></div>
+                    <div class="ring r2"></div>
+                    <div class="ring r3"></div>
+                </div>
+                <div class="visual-caption">118 ELEMENTS<br><b>ONE PERIODIC SYSTEM</b></div>
+            </div>
+        </section>
+        <section class="section" id="map">
+            <div class="eyebrow">04 / CHAPTER MAP</div>
+            <h2>Read the table<br><em>as a system.</em></h2>
+            <div class="map-grid"><a href="#history"><span>4.1</span><b>পর্যায় সারণির পটভূমি</b><small>Background of
+                        Periodic Table</small></a><a href="#characteristics"><span>4.2</span><b>পর্যায় সারণির
+                        বৈশিষ্ট্য</b><small>Characteristics</small></a><a href="#position"><span>4.3</span><b>অবস্থান
+                        নির্ণয়</b><small>From electronic configuration</small></a><a
+                    href="#basis"><span>4.4</span><b>ইলেকট্রন বিন্যাস ও ভিত্তি</b><small>Main basis</small></a><a
+                    href="#exceptions"><span>4.5</span><b>কিছু ব্যতিক্রম</b><small>Exceptions</small></a><a
+                    href="#properties"><span>4.6</span><b>পর্যায় ধর্ম</b><small>Metallic • radius • IE • EA •
+                        EN</small></a><a href="#groups"><span>4.7</span><b>গ্রুপের বিশেষ নাম</b><small>Special group
+                        names</small></a><a href="#similar"><span>4.8</span><b>একই গ্রুপের মিল</b><small>Similar
+                        chemical properties</small></a><a
+                    href="#advantages"><span>4.9</span><b>সুবিধা</b><small>Advantages of the periodic table</small></a>
+            </div>
+        </section>
+        <section class="section" id="history">
+            <div class="eyebrow">4.1 / BACKGROUND</div>
+            <h2>How did the<br><em>table emerge?</em></h2>
+            <p class="lead">বইয়ে পর্যায় সারণির ইতিহাসে কয়েকটি গুরুত্বপূর্ণ ধাপ দেখানো হয়েছে—1789 সালে Lavoisier-এর
+                মৌল শ্রেণিবিন্যাস, 1829 সালে Döbereiner-এর triads, 1869 সালে Mendeleev-এর পর্যায় সারণি এবং পরবর্তীতে
+                Moseley-এর পারমাণবিক সংখ্যাভিত্তিক ধারণা। আধুনিক সারণি বর্তমানে 118টি স্বীকৃত মৌলকে সাজায়।</p>
+            <div class="cards" style="margin-top:30px">
+                <div class="card"><span class="index">1789</span>
+                    <h3>Lavoisier</h3>
+                    <p>মৌলকে ধাতু, অধাতু, গ্যাস ও পৃথিবীর উপাদানসহ বিভিন্ন শ্রেণিতে সাজানোর প্রাথমিক প্রচেষ্টা।</p>
+                </div>
+                <div class="card"><span class="index">1829</span>
+                    <h3>Döbereiner</h3>
+                    <p>তিনটি সম্পর্কিত মৌলের triad-এ মাঝের মৌলের ধর্ম ও পারমাণবিক ভরের মধ্যকার সম্পর্ক পর্যবেক্ষণ করা
+                        হয়।</p>
+                </div>
+                <div class="card"><span class="index">1869</span>
+                    <h3>Mendeleev</h3>
+                    <p>পারমাণবিক ভর ও রাসায়নিক ধর্মের পুনরাবৃত্তির ভিত্তিতে মৌল সাজিয়ে পর্যায় সারণির শক্তিশালী ভিত্তি
+                        তৈরি করেন।</p>
+                </div>
+                <div class="card"><span class="index">MODERN</span>
+                    <h3>Atomic number</h3>
+                    <p>আধুনিক পর্যায় সূত্রে পারমাণবিক সংখ্যা মৌলগুলোর পর্যায়ক্রম বোঝার কেন্দ্রীয় ভিত্তি।</p>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="characteristics">
+            <div class="eyebrow">4.2 / CHARACTERISTICS</div>
+            <h2>Rows, columns,<br><em>periods & groups.</em></h2>
+            <div class="two-col">
+                <div class="concept">
+                    <h3>পর্যায় (Period)</h3>
+                    <p>পর্যায় সারণির অনুভূমিক সারিকে পর্যায় বলে। আধুনিক পর্যায় সারণিতে 7টি পর্যায় আছে। একটি মৌলের
+                        সর্বশেষ occupied shell-এর প্রধান শক্তিস্তর সংখ্যা থেকে পর্যায় নির্ণয় করা যায়।</p>
+                </div>
+                <div class="concept">
+                    <h3>গ্রুপ (Group)</h3>
+                    <p>উল্লম্ব কলামকে গ্রুপ বলে। আধুনিক পর্যায় সারণিতে 18টি গ্রুপ আছে। একই গ্রুপের মৌলগুলোর বহিঃস্তরের
+                        ইলেকট্রন বিন্যাসে মিল থাকায় রাসায়নিক ধর্মে সাদৃশ্য দেখা যায়।</p>
+                </div>
+                <div class="concept">
+                    <h3>Block structure</h3>
+                    <p>ইলেকট্রন বিন্যাসের শেষ উপশক্তিস্তরের ভিত্তিতে s, p, d ও f block হিসেবে মৌলগুলোকে দেখা যায়।
+                        বইয়ের সারণিতে transition elements এবং inner-transition elements আলাদা অঞ্চলে দেখানো হয়েছে।</p>
+                </div>
+                <div class="concept">
+                    <h3>Metals / Non-metals</h3>
+                    <p>সারণির বাম ও মাঝের অংশে অধিকাংশ ধাতু, ডানদিকে অধিকাংশ অধাতু এবং মাঝামাঝি অঞ্চলে metalloid-এর
+                        অবস্থান দেখা যায়।</p>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="position">
+            <div class="eyebrow">4.3 / POSITION FROM CONFIGURATION</div>
+            <h2>Given the configuration,<br><em>find the address.</em></h2>
+            <div class="calc">
+                <p class="lead">একটি মৌলের ইলেকট্রন বিন্যাস দিলে তার period ও group বের করার অনুশীলন করো।</p><input
+                    id="cfg" value="2,8,7" placeholder="e.g. 2,8,7"><button onclick="findPosition()">Find
+                    position</button>
+                <div class="calc-result" id="cfgResult">Example: 2,8,7 → Period 3 • Group 17 • Halogen</div>
+            </div>
+            <div class="cards" style="margin-top:20px">
+                <div class="card">
+                    <h3>Period rule</h3>
+                    <p>বিন্যাসে যতগুলো occupied shell, সাধারণভাবে period তত। যেমন 2,8,7 → 3 shells → Period 3.</p>
+                </div>
+                <div class="card">
+                    <h3>Main-group clue</h3>
+                    <p>মূল গ্রুপের ক্ষেত্রে valence-shell electron count গ্রুপের অবস্থান বোঝাতে সাহায্য করে। 7 valence
+                        electrons → Group 17.</p>
+                </div>
+                <div class="card">
+                    <h3>Transition elements</h3>
+                    <p>d-block-এর ক্ষেত্রে শুধু শেষ shell-এর ইলেকট্রন গুনলেই group সব সময় সরাসরি পাওয়া যায় না;
+                        সম্পূর্ণ configuration দেখতে হয়।</p>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="basis">
+            <div class="eyebrow">4.4 / ELECTRONIC CONFIGURATION</div>
+            <h2>Electron configuration<br><em>is the map.</em></h2>
+            <div class="config-lab">
+                <div class="element-box"><small>CHOOSE ATOMIC NUMBER</small><input id="pZ" type="range" min="1" max="30"
+                        value="17"><output id="pZout">17</output><strong id="pSym">Cl</strong><span
+                        id="pName">Chlorine</span></div>
+                <div>
+                    <div class="config-readout" id="pConfig">2, 8, 7</div>
+                    <p>বইয়ের H(1) থেকে Zn(30) electronic configuration table-এর ধারণা ব্যবহার করে element position বোঝা
+                        যায়।</p>
+                    <div class="periodic-key"><span>Period = occupied shells</span><span>Group = valence
+                            pattern</span><span>Block = final subshell</span></div>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="exceptions">
+            <div class="eyebrow">4.5 / EXCEPTIONS</div>
+            <h2>Patterns are useful.<br><em>But know the exceptions.</em></h2>
+            <p class="lead">বইয়ে কিছু electronic configuration-কে সাধারণ Aufbau pattern থেকে ব্যতিক্রম হিসেবে আলোচনা
+                করা হয়েছে, বিশেষ করে d-block-এর কিছু মৌলে। পরীক্ষায় configuration লিখতে হলে textbook table-এর দেওয়া
+                বিন্যাস অনুসরণ করা গুরুত্বপূর্ণ।</p>
+            <div class="cards" style="margin-top:25px">
+                <div class="card">
+                    <h3>Chromium</h3>
+                    <p>Cr(24)-এর configuration বইয়ের টেবিলে ব্যতিক্রমী বিন্যাসসহ দেখানো হয়েছে।</p>
+                </div>
+                <div class="card">
+                    <h3>Copper</h3>
+                    <p>Cu(29)-এর ক্ষেত্রেও d-subshell-এর বিশেষ স্থিতিশীলতার কারণে configuration-এর ব্যতিক্রম দেখা যায়।
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Practice tip</h3>
+                    <p>Configuration মুখস্থ না করে atomic number → shell/subshell filling → textbook exception check—এই
+                        flow ব্যবহার করো।</p>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="properties">
+            <div class="eyebrow">4.6 / PERIODIC PROPERTIES</div>
+            <h2>Properties change<br><em>periodically.</em></h2>
+            <div class="trend">
+                <div class="trendbox">
+                    <h3>Metallic character</h3>
+                    <p>একই period-এ বাম থেকে ডানে metallic character সাধারণভাবে কমে; একই group-এ ওপর থেকে নিচে বাড়ে।
+                    </p>
+                    <div class="trendbar"><i style="width:35%"></i></div><small>Across a period → generally
+                        decreases</small>
+                </div>
+                <div class="trendbox">
+                    <h3>Non-metallic character</h3>
+                    <p>একই period-এ বাম থেকে ডানে non-metallic character সাধারণভাবে বাড়ে; group-এ নিচে নামলে কমে।</p>
+                    <div class="trendbar"><i style="width:75%"></i></div><small>Across a period → generally
+                        increases</small>
+                </div>
+                <div class="trendbox">
+                    <h3>Atomic radius</h3>
+                    <p>একই period-এ কার্যকর নিউক্লীয় আকর্ষণ বৃদ্ধির কারণে radius সাধারণভাবে কমে; group-এ নতুন shell যোগ
+                        হওয়ায় নিচে বাড়ে।</p>
+                    <div class="trendbar"><i style="width:45%"></i></div>
+                </div>
+                <div class="trendbox">
+                    <h3>Ionization energy</h3>
+                    <p>পরমাণু থেকে বহিঃস্তরের ইলেকট্রন সরাতে প্রয়োজনীয় শক্তি। period-এ সাধারণত বাড়ে, group-এ নিচে
+                        সাধারণত কমে।</p>
+                    <div class="trendbar"><i style="width:65%"></i></div>
+                </div>
+                <div class="trendbox">
+                    <h3>Electron affinity</h3>
+                    <p>গ্যাসীয় নিরপেক্ষ পরমাণু একটি ইলেকট্রন গ্রহণ করলে শক্তির পরিবর্তনকে electron affinity হিসেবে
+                        আলোচনা করা হয়। এর মান ও প্রবণতা মৌলভেদে পরিবর্তিত হয়।</p>
+                    <div class="trendbar"><i style="width:58%"></i></div>
+                </div>
+                <div class="trendbox">
+                    <h3>Electronegativity</h3>
+                    <p>রাসায়নিক বন্ধনে shared electron pair নিজের দিকে আকর্ষণ করার ক্ষমতা। period-এ সাধারণত বাড়ে এবং
+                        group-এ নিচে কমে।</p>
+                    <div class="trendbar"><i style="width:82%"></i></div>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="groups">
+            <div class="eyebrow">4.7 / SPECIAL GROUP NAMES</div>
+            <h2>Groups have<br><em>identities.</em></h2>
+            <div class="cards">
+                <div class="card"><span class="index">GROUP 1</span>
+                    <h3>Alkali metals</h3>
+                    <p>Li, Na, K ইত্যাদি। বহিঃস্তরে সাধারণত 1টি valence electron থাকে এবং +1 ion গঠনের প্রবণতা দেখা
+                        যায়।</p>
+                </div>
+                <div class="card"><span class="index">GROUP 2</span>
+                    <h3>Alkaline earth metals</h3>
+                    <p>Be, Mg, Ca ইত্যাদি; সাধারণভাবে +2 oxidation state/ion-এর সাথে পরিচিত।</p>
+                </div>
+                <div class="card"><span class="index">GROUP 17</span>
+                    <h3>Halogens</h3>
+                    <p>F, Cl, Br, I ইত্যাদি; valence shell-এ 7টি electron থাকার কারণে electron গ্রহণের প্রবণতা
+                        উল্লেখযোগ্য।</p>
+                </div>
+                <div class="card"><span class="index">GROUP 18</span>
+                    <h3>Noble gases</h3>
+                    <p>He, Ne, Ar ইত্যাদি। বহিঃস্ত shell স্থিতিশীল হওয়ায় এদের chemical reactivity সাধারণত কম।</p>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="similar">
+            <div class="eyebrow">4.8 / SAME-GROUP SIMILARITY</div>
+            <h2>Same group,<br><em>similar chemistry.</em></h2>
+            <div class="two-col">
+                <div class="concept">
+                    <h3>Group 1</h3>
+                    <p>Li, Na, K—সবগুলোর valence electron 1 হওয়ায় +1 ion গঠনের সাধারণ প্রবণতা আছে। পানি/অক্সিজেনের
+                        সাথে তাদের reactions-এর ধরনে মিল দেখা যায়, যদিও reactivity নিচের দিকে বদলায়।</p>
+                </div>
+                <div class="concept">
+                    <h3>Group 17</h3>
+                    <p>F, Cl, Br, I—সবার valence electron 7। তারা একটি electron গ্রহণ করে stable configuration পাওয়ার
+                        প্রবণতা দেখায় এবং hydrogen-এর সাথে hydrogen halide তৈরি করতে পারে।</p>
+                </div>
+            </div>
+            <div class="experiment" style="margin-top:15px">
+                <h3>Hydrogen halide reaction map</h3>
+                <div class="flow"><span>H₂ + F₂</span><b>→</b><span>2HF</span><span>H₂ +
+                        Cl₂</span><b>→</b><span>2HCl</span><span>H₂ + Br₂</span><b>→</b><span>2HBr</span></div>
+            </div>
+        </section>
+        <section class="section" id="advantages">
+            <div class="eyebrow">4.9 / ADVANTAGES</div>
+            <h2>Why the periodic table<br><em>matters.</em></h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Organization</h3>
+                    <p>অসংখ্য মৌলকে atomic number, electronic configuration ও chemical properties-এর ভিত্তিতে একটি
+                        কাঠামোর মধ্যে সাজায়।</p>
+                </div>
+                <div class="card">
+                    <h3>Prediction</h3>
+                    <p>কোনো মৌলের group/period দেখে তার valence electrons ও অনেক chemical behavior সম্পর্কে ধারণা করা
+                        যায়।</p>
+                </div>
+                <div class="card">
+                    <h3>Comparison</h3>
+                    <p>একই period বা group-এর মৌলের ধর্ম তুলনা করা সহজ হয় এবং periodic trends দেখা যায়।</p>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="quiz">
+            <div class="eyebrow">10 / CHAPTER QUIZ</div>
+            <h2>Test your<br><em>periodic thinking.</em></h2>
+            <div class="quiz">
+                <div class="quiz-top"><span id="qcount">1 / 8</span>
+                    <div class="bar"><i id="qbar"></i></div><b id="qscore">0 pts</b>
+                </div>
+                <h3 id="qtext"></h3>
+                <div class="answers" id="qanswers"></div>
+                <p class="feedback" id="qfeedback"></p>
+            </div>
+        </section>
+    </main>
+    <footer><span>CHEMHUB</span><span class="credit">Built & designed by <strong>Jubayer Siddique Niloy</strong> • <a
+                href="https://niloy-portfolio-pi.vercel.app" target="_blank" rel="noopener">Portfolio ↗</a></span>
+    </footer>
+    <script src="chapter4.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

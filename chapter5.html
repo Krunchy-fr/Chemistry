@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="bn">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Chapter 05 — রাসায়নিক বন্ধন | ChemHub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="chapters-expanded.css">
+    <style>
+        .bond-stage {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px
+        }
+
+        .bond-card {
+            padding: 25px;
+            border: 1px solid #292a34;
+            background: #0f1015;
+            border-radius: 14px
+        }
+
+        .bond-visual {
+            height: 210px;
+            display: grid;
+            place-items: center;
+            position: relative
+        }
+
+        .ion {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+            border: 1px solid #8b7cff;
+            background: #171421;
+            font: 700 16px "Space Grotesk"
+        }
+
+        .ionic-line {
+            width: 160px;
+            border-top: 2px dashed #8b7cff
+        }
+
+        .shared {
+            display: flex;
+            gap: 0;
+            align-items: center
+        }
+
+        .shared .ion {
+            border-color: #777
+        }
+
+        .shared .pair {
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            border: 1px solid #8b7cff;
+            display: grid;
+            place-items: center;
+            color: #aaa2ff
+        }
+
+        .formula-builder {
+            padding: 22px;
+            border: 1px solid #292a34;
+            background: #0f1015;
+            border-radius: 14px
+        }
+
+        .formula-builder select {
+            background: #12131a;
+            color: #ddd;
+            border: 1px solid #292a34;
+            padding: 9px;
+            border-radius: 7px;
+            margin: 4px
+        }
+
+        .formula-output {
+            margin-top: 15px;
+            font: 700 25px "Space Grotesk";
+            color: #aaa2ff
+        }
+
+        .property-table {
+            overflow: hidden;
+            border: 1px solid #292a34;
+            border-radius: 12px
+        }
+
+        .property-table>div {
+            display: grid;
+            grid-template-columns: 1.1fr 1fr 1fr 1.4fr;
+            padding: 12px;
+            border-bottom: 1px solid #24252d;
+            font-size: 8px
+        }
+
+        .property-table>div:last-child {
+            border: 0
+        }
+
+        .property-table .head {
+            color: #aaa2ff;
+            background: #13131a;
+            font-weight: 700
+        }
+
+        .charge-lab {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px
+        }
+
+        .charge-card {
+            padding: 18px;
+            border: 1px solid #292a34;
+            border-radius: 12px;
+            background: #0f1015
+        }
+
+        .charge-card strong {
+            font: 700 25px "Space Grotesk";
+            color: #aaa2ff
+        }
+
+        .charge-card p {
+            font-size: 9px;
+            color: #777984;
+            line-height: 1.7
+        }
+
+        @media(max-width:700px) {
+
+            .bond-stage,
+            .charge-lab {
+                grid-template-columns: 1fr
+            }
+
+            .property-table {
+                overflow-x: auto
+            }
+
+            .property-table>div {
+                min-width: 650px
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid"></div>
+    <div class="glow glow1"></div>
+    <header class="nav"><a class="logo" href="index.html">⚛ CHEM<span>HUB</span></a>
+        <nav><a href="index.html">Home</a><a class="active" href="chapters.html">Chapters</a><a href="#map">Map</a><a
+                href="#bonds">Bonds</a><a href="#quiz">Quiz</a></nav><a class="nav-cta" href="chapter4.html">← Chapter
+            04</a><button class="menu">☰</button>
+    </header>
+    <main>
+        <section class="chapter-hero">
+            <div>
+                <div class="eyebrow">CHAPTER 05 / TEXTBOOK MODE</div>
+                <h1>রাসায়নিক<br><em>বন্ধন</em></h1>
+                <p class="eng-title">Chemical Bond</p>
+                <p class="hero-sub">যোজ্যতা ইলেকট্রন থেকে stable configuration, valency, radicals, chemical formula,
+                    octet/duet rule, cation-anion এবং ionic, covalent ও metallic bond—এই অধ্যায়ে দেখবে কীভাবে
+                    পরমাণুগুলো যুক্ত হয়ে যৌগ তৈরি করে।</p>
+                <div class="actions"><a class="btn primary" href="#map">Begin Chapter →</a><a class="btn"
+                        href="#quiz">Test Yourself</a></div>
+                <div class="source-note">REFERENCE: Secondary (BV)-2026 • Chemistry • Chapter 05 • textbook pp. 87–113
+                </div>
+            </div>
+            <div class="science-visual">
+                <div class="shared">
+                    <div class="ion">Na⁺</div>
+                    <div class="pair">e⁻</div>
+                    <div class="ion">Cl⁻</div>
+                </div>
+                <div class="visual-caption">ELECTRON TRANSFER<br><b>→ IONIC BOND</b></div>
+            </div>
+        </section>
+        <section class="section" id="map">
+            <div class="eyebrow">05 / CHAPTER MAP</div>
+            <h2>From electrons<br><em>to bonds.</em></h2>
+            <div class="map-grid"><a href="#valence"><span>5.1</span><b>যোজ্যতা ইলেকট্রন</b><small>Valence
+                        Electrons</small></a><a
+                    href="#valency"><span>5.2</span><b>যোজ্যতা</b><small>Valency</small></a><a
+                    href="#radicals"><span>5.3</span><b>মূলক</b><small>Radicals and valencies</small></a><a
+                    href="#formula"><span>5.4</span><b>যৌগের রাসায়নিক সংকেত</b><small>Chemical Formula</small></a><a
+                    href="#molecular"><span>5.5</span><b>আণবিক ও গাঠনিক সংকেত</b><small>Molecular & Structural
+                        Formula</small></a><a href="#octet"><span>5.6</span><b>অষ্টক ও দ্বৈত নিয়ম</b><small>Octet and
+                        Duet Rules</small></a><a href="#noble"><span>5.7</span><b>নিষ্ক্রিয় গ্যাস</b><small>Inert gas
+                        stability</small></a><a href="#why"><span>5.8</span><b>বন্ধন ও কারণ</b><small>Why bonds
+                        form</small></a><a href="#ions"><span>5.9</span><b>ক্যাটায়ন ও অ্যানায়ন</b><small>Cations &
+                        Anions</small></a><a href="#ionic"><span>5.10</span><b>আয়নিক বন্ধন</b><small>Ionic /
+                        Electrovalent</small></a><a href="#covalent"><span>5.11</span><b>সমযোজী বন্ধন</b><small>Covalent
+                        Bond</small></a><a href="#properties"><span>5.12</span><b>বন্ধনের বৈশিষ্ট্য</b><small>Ionic &
+                        covalent properties</small></a><a href="#metallic"><span>5.13</span><b>ধাতব
+                        বন্ধন</b><small>Metallic Bond</small></a></div>
+        </section>
+        <section class="section" id="valence">
+            <div class="eyebrow">5.1 / VALENCE ELECTRONS</div>
+            <h2>Look at the<br><em>outer shell.</em></h2>
+            <p class="lead">পরমাণুর সর্বশেষ শক্তিস্তরে থাকা ইলেকট্রনকে যোজ্যতা ইলেকট্রন বলে। রাসায়নিক বিক্রিয়ায় অংশ
+                নেওয়ার ক্ষেত্রে এই electron-গুলো গুরুত্বপূর্ণ। বইয়ের N, F, P, Cl, Ca-এর উদাহরণে valence-shell electron
+                count দেখানো হয়েছে।</p>
+            <div class="cards" style="margin-top:25px">
+                <div class="card"><span class="index">N(7)</span>
+                    <h3>2, 5</h3>
+                    <p>Valence electrons = 5</p>
+                </div>
+                <div class="card"><span class="index">F(9)</span>
+                    <h3>2, 7</h3>
+                    <p>Valence electrons = 7</p>
+                </div>
+                <div class="card"><span class="index">Ca(20)</span>
+                    <h3>2, 8, 8, 2</h3>
+                    <p>Valence electrons = 2</p>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="valency">
+            <div class="eyebrow">5.2 / VALENCY</div>
+            <h2>How many electrons<br><em>does it gain or lose?</em></h2>
+            <div class="definition">
+                <h3>যোজ্যতা (Valency)</h3>
+                <p>একটি পরমাণু স্থিতিশীল electron configuration পাওয়ার জন্য যত সংখ্যক ইলেকট্রন গ্রহণ, বর্জন বা শেয়ার
+                    করে—তার সঙ্গে যোজ্যতার ধারণা যুক্ত। বইয়ে Li-এর +1, Mg-এর +2, Al-এর +3 এবং F/Cl-এর −1 ধরনের
+                    ion/combining behavior উদাহরণ হিসেবে দেখানো হয়েছে।</p>
+            </div>
+            <div class="charge-lab" style="margin-top:15px">
+                <div class="charge-card"><strong>Li → Li⁺</strong>
+                    <p>1 electron হারিয়ে stable configuration-এর দিকে যায়।</p>
+                </div>
+                <div class="charge-card"><strong>Mg → Mg²⁺</strong>
+                    <p>2 valence electron বর্জনের উদাহরণ।</p>
+                </div>
+                <div class="charge-card"><strong>Cl → Cl⁻</strong>
+                    <p>1 electron গ্রহণ করে outer shell পূরণের দিকে যায়।</p>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="radicals">
+            <div class="eyebrow">5.3 / RADICALS</div>
+            <h2>Valency isn't only<br><em>about atoms.</em></h2>
+            <p class="lead">বইয়ে কিছু যৌগমূলক/মূলক (radical) ও তাদের যোজনী দেওয়া হয়েছে—যেমন NH₄⁺, CO₃²⁻, HCO₃⁻,
+                SO₃²⁻, SO₄²⁻, NO₃⁻, PO₄³⁻, OH⁻, ClO₃⁻, PH₄⁺। যৌগের সংকেত লেখার সময় এসব group-এর charge/valency
+                গুরুত্বপূর্ণ।</p>
+            <div class="cards">
+                <div class="card">
+                    <h3>NH₄⁺</h3>
+                    <p>Valency / charge: +1</p>
+                </div>
+                <div class="card">
+                    <h3>SO₄²⁻</h3>
+                    <p>Valency / charge: −2</p>
+                </div>
+                <div class="card">
+                    <h3>PO₄³⁻</h3>
+                    <p>Valency / charge: −3</p>
+                </div>
+                <div class="card">
+                    <h3>OH⁻</h3>
+                    <p>Valency / charge: −1</p>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="formula">
+            <div class="eyebrow">5.4 / CHEMICAL FORMULA</div>
+            <h2>Build a compound<br><em>formula.</em></h2>
+            <div class="formula-builder">
+                <p class="lead">দুটি ion/element বেছে নিয়ে charge balance করে empirical formula-এর অনুশীলন করো।</p>
+                <select id="cat">
+                    <option value="Na,1">Na⁺</option>
+                    <option value="Mg,2">Mg²⁺</option>
+                    <option value="Al,3">Al³⁺</option>
+                    <option value="Ca,2">Ca²⁺</option>
+                    <option value="NH4,1">NH₄⁺</option>
+                </select><select id="an">
+                    <option value="Cl,1">Cl⁻</option>
+                    <option value="O,2">O²⁻</option>
+                    <option value="SO4,2">SO₄²⁻</option>
+                    <option value="NO3,1">NO₃⁻</option>
+                    <option value="PO4,3">PO₄³⁻</option>
+                </select><button class="btn primary" onclick="makeFormula()">Build</button>
+                <div class="formula-output" id="formulaOut">NaCl</div>
+                <p class="micro">যেমন: Mg²⁺ ও Cl⁻ → MgCl₂; Al³⁺ ও O²⁻ → Al₂O₃।</p>
+            </div>
+        </section>
+        <section class="section" id="molecular">
+            <div class="eyebrow">5.5 / FORMULAS</div>
+            <h2>Molecular vs<br><em>structural formula.</em></h2>
+            <div class="two-col">
+                <div class="concept">
+                    <h3>Molecular formula</h3>
+                    <p>একটি molecule-এ কোন কোন মৌলের কতটি atom আছে তা প্রতীকের সাহায্যে প্রকাশ করে। যেমন H₂O, CH₄।</p>
+                    <div class="ratio">CH₄ → 1 C + 4 H</div>
+                </div>
+                <div class="concept">
+                    <h3>Structural formula</h3>
+                    <p>পরমাণুগুলো কীভাবে একে অন্যের সাথে যুক্ত আছে তা bond/line দিয়ে দেখায়। একই molecular formula হলেও
+                        ভিন্ন arrangement সম্ভব—তাই structure আলাদা তথ্য দেয়।</p>
+                    <div class="ratio">H–C–H with additional H bonds</div>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="octet">
+            <div class="eyebrow">5.6 / OCTET & DUET</div>
+            <h2>Stable shells<br><em>drive bonding.</em></h2>
+            <div class="bond-stage">
+                <div class="bond-card">
+                    <h3>Duet rule</h3>
+                    <p class="micro">প্রথম শক্তিস্তরে 2টি electron থাকলে তা স্থিতিশীল configuration দিতে পারে।
+                        Hydrogen/helium-এর ক্ষেত্রে প্রথম shell-এর ধারণা গুরুত্বপূর্ণ।</p>
+                    <div class="bond-visual">
+                        <div class="ion">He</div>
+                    </div>
+                </div>
+                <div class="bond-card">
+                    <h3>Octet rule</h3>
+                    <p class="micro">অনেক main-group atom valence shell-এ 8টি electron-এর stable arrangement অর্জনের
+                        জন্য electron gain, loss বা sharing করে।</p>
+                    <div class="bond-visual">
+                        <div class="shared">
+                            <div class="ion">Cl</div>
+                            <div class="pair">••</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="noble">
+            <div class="eyebrow">5.7 / INERT GASES</div>
+            <h2>Why are noble gases<br><em>so stable?</em></h2>
+            <p class="lead">He-এর প্রথম shell-এ 2টি electron এবং Ne, Ar-এর outer shell-এ stable arrangement থাকে। এই
+                পূর্ণ/স্থিতিশীল valence configuration তাদের কম reactive হওয়ার সাথে সম্পর্কিত।</p>
+            <div class="cards">
+                <div class="card">
+                    <h3>He</h3>
+                    <p>1s² → first shell complete (duet)</p>
+                </div>
+                <div class="card">
+                    <h3>Ne</h3>
+                    <p>2,8 → outer shell complete</p>
+                </div>
+                <div class="card">
+                    <h3>Ar</h3>
+                    <p>2,8,8 → outer shell complete</p>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="why">
+            <div class="eyebrow">5.8 / WHY BONDS FORM</div>
+            <h2>Atoms bond because<br><em>stability matters.</em></h2>
+            <p class="lead">বইয়ে দেখানো হয়েছে যে অধিকাংশ পরমাণু নিষ্ক্রিয় গ্যাসের মতো stable electron configuration
+                পেতে চায়। তাই তারা electron গ্রহণ, বর্জন বা ভাগাভাগির মাধ্যমে রাসায়নিক বন্ধন তৈরি করে।</p>
+            <div class="flow"><span>Atom</span><b>→</b><span>Valence electrons</span><b>→</b><span>Gain / Lose /
+                    Share</span><b>→</b><span>Stable configuration</span><b>→</b><span>Bond</span></div>
+        </section>
+        <section class="section" id="ions">
+            <div class="eyebrow">5.9 / IONS</div>
+            <h2>Cations<br><em>& anions.</em></h2>
+            <div class="two-col">
+                <div class="concept">
+                    <h3>Cation (+)</h3>
+                    <p>পরমাণু electron বর্জন করলে electron-এর তুলনায় proton বেশি থাকে এবং ধনাত্মক ion তৈরি হয়। Na →
+                        Na⁺ + e⁻ এবং Mg → Mg²⁺ + 2e⁻ বইয়ের উদাহরণ।</p>
+                </div>
+                <div class="concept">
+                    <h3>Anion (−)</h3>
+                    <p>পরমাণু electron গ্রহণ করলে ঋণাত্মক ion তৈরি হয়। Cl + e⁻ → Cl⁻ এবং O + 2e⁻ → O²⁻ ধরনের উদাহরণ
+                        রয়েছে।</p>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="ionic">
+            <div class="eyebrow">5.10 / IONIC BOND</div>
+            <h2>Transfer an electron.<br><em>Attract the ions.</em></h2>
+            <div class="bond-stage">
+                <div class="bond-card">
+                    <h3>NaCl</h3>
+                    <p class="micro">Na একটি electron বর্জন করে Na⁺ হয়; Cl একটি electron গ্রহণ করে Cl⁻ হয়। বিপরীত
+                        আধানের electrostatic attraction-এর ফলে ionic bond তৈরি হয়।</p>
+                    <div class="bond-visual">
+                        <div class="ion">Na⁺</div>
+                        <div class="ionic-line"></div>
+                        <div class="ion">Cl⁻</div>
+                    </div>
+                </div>
+                <div class="bond-card">
+                    <h3>MgCl₂</h3>
+                    <p class="micro">Mg দুইটি electron বর্জন করে Mg²⁺ তৈরি করতে পারে; দুইটি Cl atom একটি করে electron
+                        গ্রহণ করে 2Cl⁻ তৈরি করে। মোট charge balance করে MgCl₂।</p>
+                    <div class="bond-visual">
+                        <div class="ion">Mg²⁺</div>
+                        <div style="display:flex;flex-direction:column;gap:10px">
+                            <div class="ion">Cl⁻</div>
+                            <div class="ion">Cl⁻</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="covalent">
+            <div class="eyebrow">5.11 / COVALENT BOND</div>
+            <h2>Share electrons.<br><em>Build molecules.</em></h2>
+            <div class="bond-stage">
+                <div class="bond-card">
+                    <h3>H₂</h3>
+                    <p class="micro">দুটি H atom একটি electron pair share করে duet configuration অর্জনের দিকে যায়।</p>
+                    <div class="bond-visual">
+                        <div class="shared">
+                            <div class="ion">H</div>
+                            <div class="pair">••</div>
+                            <div class="ion">H</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bond-card">
+                    <h3>Cl₂</h3>
+                    <p class="micro">দুটি Cl atom একটি shared pair তৈরি করে; প্রত্যেকের valence shell-এ octet-এর দিকে
+                        অগ্রসর হয়।</p>
+                    <div class="bond-visual">
+                        <div class="shared">
+                            <div class="ion">Cl</div>
+                            <div class="pair">••</div>
+                            <div class="ion">Cl</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bond-card">
+                    <h3>H₂O</h3>
+                    <p class="micro">O দুইটি H-এর সাথে electron pair share করে। ফলে O-এর চারপাশে bonding/non-bonding
+                        electron pair-এর arrangement থাকে।</p>
+                    <div class="bond-visual">
+                        <div class="shared">
+                            <div class="ion">H</div>
+                            <div class="pair">••</div>
+                            <div class="ion">O</div>
+                            <div class="pair">••</div>
+                            <div class="ion">H</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bond-card">
+                    <h3>O₂</h3>
+                    <p class="micro">Oxygen molecule-এ দুই O atom-এর মধ্যে দুই জোড়া electron sharing—double covalent
+                        bond—দেখানো যায়।</p>
+                    <div class="bond-visual">
+                        <div class="shared">
+                            <div class="ion">O</div>
+                            <div class="pair">••••</div>
+                            <div class="ion">O</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="properties">
+            <div class="eyebrow">5.12 / CHARACTERISTICS</div>
+            <h2>Ionic vs covalent<br><em>properties.</em></h2>
+            <div class="property-table">
+                <div class="head"><span>Property</span><span>Ionic</span><span>Covalent</span><span>Textbook idea</span>
+                </div>
+                <div><span>Melting/boiling point</span><span>Generally high</span><span>Often lower</span><span>Ionic
+                        lattice has strong electrostatic attraction.</span></div>
+                <div><span>Solubility</span><span>Many dissolve in water</span><span>Varies</span><span>Polarity and
+                        structure matter.</span></div>
+                <div><span>Electrical conductivity</span><span>Molten/aqueous forms can conduct</span><span>Usually
+                        poor</span><span>Mobile ions are needed for ionic conduction.</span></div>
+                <div><span>Particles</span><span>Ions in lattice</span><span>Molecules / shared
+                        networks</span><span>Bonding arrangement controls properties.</span></div>
+            </div>
+        </section>
+        <section class="section" id="metallic">
+            <div class="eyebrow">5.13 / METALLIC BOND</div>
+            <h2>Positive ions in a sea<br><em>of electrons.</em></h2>
+            <p class="lead">ধাতব বন্ধনে ধাতুর positive ion/atomic cores-এর সঙ্গে delocalized electron-এর আকর্ষণকে একটি
+                model হিসেবে দেখানো হয়। এই ধারণা ধাতুর বিদ্যুৎ পরিবাহিতা, তাপ পরিবাহিতা ও নমনীয়তার মতো বৈশিষ্ট্য
+                ব্যাখ্যায় সাহায্য করে।</p>
+            <div class="bond-card" style="margin-top:20px">
+                <div class="bond-visual">
+                    <div style="display:grid;grid-template-columns:repeat(5,60px);gap:12px">
+                        <div class="ion">M⁺</div>
+                        <div class="ion">M⁺</div>
+                        <div class="ion">M⁺</div>
+                        <div class="ion">M⁺</div>
+                        <div class="ion">M⁺</div>
+                        <div class="ion">e⁻</div>
+                        <div class="ion">e⁻</div>
+                        <div class="ion">e⁻</div>
+                        <div class="ion">e⁻</div>
+                        <div class="ion">e⁻</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="quiz">
+            <div class="eyebrow">14 / CHAPTER QUIZ</div>
+            <h2>Can you<br><em>bond it?</em></h2>
+            <div class="quiz">
+                <div class="quiz-top"><span id="qcount">1 / 10</span>
+                    <div class="bar"><i id="qbar"></i></div><b id="qscore">0 pts</b>
+                </div>
+                <h3 id="qtext"></h3>
+                <div class="answers" id="qanswers"></div>
+                <p class="feedback" id="qfeedback"></p>
+            </div>
+        </section>
+    </main>
+    <footer><span>CHEMHUB</span><span class="credit">Built & designed by <strong>Jubayer Siddique Niloy</strong> • <a
+                href="https://niloy-portfolio-pi.vercel.app" target="_blank" rel="noopener">Portfolio ↗</a></span>
+    </footer>
+    <script src="chapter5.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
