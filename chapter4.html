@@ -118,6 +118,72 @@
             color: #aaa2ff;
             font: 600 13px "Space Grotesk"
         }
+
+        .map-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin-top: 28px
+        }
+
+        .map-grid>a {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            column-gap: 10px;
+            align-items: center;
+            padding: 12px 14px;
+            border: 1px solid #292a34;
+            background: #101116;
+            border-radius: 10px;
+            color: #aaa2ff !important;
+            text-decoration: none !important;
+            transition: all .2s ease;
+            min-height: 48px
+        }
+
+        .map-grid>a:hover {
+            border-color: #8b7cff;
+            background: #14121c;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(139, 124, 255, .08)
+        }
+
+        .map-grid>a span {
+            font: 600 9px "Space Grotesk";
+            color: #8b7cff
+        }
+
+        .map-grid>a b {
+            font: 600 10px "Noto Sans Bengali", "Inter", sans-serif;
+            color: #ddd;
+            text-decoration: none
+        }
+
+        .map-grid>a small {
+            grid-column: 2;
+            color: #666873;
+            font-size: 7px;
+            line-height: 1.4;
+            margin-top: 2px
+        }
+
+        .map-grid>a:visited,
+        .map-grid>a:active {
+            color: #aaa2ff !important;
+            text-decoration: none !important
+        }
+
+        @media(max-width:800px) {
+            .map-grid {
+                grid-template-columns: 1fr 1fr
+            }
+        }
+
+        @media(max-width:520px) {
+            .map-grid {
+                grid-template-columns: 1fr
+            }
+        }
     </style>
 </head>
 
@@ -157,28 +223,16 @@
             <div class="eyebrow">04 / CHAPTER MAP</div>
             <h2>Read the table<br><em>as a system.</em></h2>
             <div class="map-grid"><a href="#history"><span>4.1</span><b>পর্যায় সারণির পটভূমি</b><small>Background of
-                        Periodic Table</small>
-
-                </a><a href="#characteristics"><span>4.2</span><b>পর্যায় সারণির
-                        বৈশিষ্ট্য</b><small>Characteristics</small>
-
-                </a><a href="#position"><span>4.3</span><b>অবস্থান
-                        নির্ণয়</b><small>From electronic configuration</small>
-
-                </a><a href="#basis"><span>4.4</span><b>ইলেকট্রন বিন্যাস ও ভিত্তি</b><small>Main basis</small>
-
-                </a><a href="#exceptions"><span>4.5</span><b>কিছু ব্যতিক্রম</b><small>Exceptions</small></a>
-
-                <a href="#properties"><span>4.6</span><b>পর্যায় ধর্ম</b><small>Metallic • radius • IE • EA •
-                        EN</small></a>
-
-                <a href="#groups"><span>4.7</span><b>গ্রুপের বিশেষ নাম</b><small>Special group
-                        names</small></a>
-
-                <a href="#similar"><span>4.8</span><b>একই গ্রুপের মিল</b><small>Similar
-                        chemical properties</small></a>
-
-                <a href="#advantages"><span>4.9</span><b>সুবিধা</b><small>Advantages of the periodic table</small></a>
+                        Periodic Table</small></a><a href="#characteristics"><span>4.2</span><b>পর্যায় সারণির
+                        বৈশিষ্ট্য</b><small>Characteristics</small></a><a href="#position"><span>4.3</span><b>অবস্থান
+                        নির্ণয়</b><small>From electronic configuration</small></a><a
+                    href="#basis"><span>4.4</span><b>ইলেকট্রন বিন্যাস ও ভিত্তি</b><small>Main basis</small></a><a
+                    href="#exceptions"><span>4.5</span><b>কিছু ব্যতিক্রম</b><small>Exceptions</small></a><a
+                    href="#properties"><span>4.6</span><b>পর্যায় ধর্ম</b><small>Metallic • radius • IE • EA •
+                        EN</small></a><a href="#groups"><span>4.7</span><b>গ্রুপের বিশেষ নাম</b><small>Special group
+                        names</small></a><a href="#similar"><span>4.8</span><b>একই গ্রুপের মিল</b><small>Similar
+                        chemical properties</small></a><a
+                    href="#advantages"><span>4.9</span><b>সুবিধা</b><small>Advantages of the periodic table</small></a>
             </div>
         </section>
         <section class="section" id="history">
