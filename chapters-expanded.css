@@ -1,1 +1,482 @@
-body{font-family:Inter,"Noto Sans Bengali",sans-serif}.cp{max-width:1200px;margin:auto;padding:0 30px}.hero{min-height:620px;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:40px}.ey{font:700 9px "Space Grotesk";letter-spacing:.16em;color:#9a90ed}.hero h1,.sec h2{font:700 clamp(45px,7vw,85px) "Space Grotesk";line-height:.95;letter-spacing:-4px;margin:16px 0}.hero h1 em,.sec h2 em{font-style:normal;color:#aaa2ff}.en{font:600 13px "Space Grotesk";color:#777984}.lead{max-width:760px;color:#85868f;line-height:1.9;font-size:12px}.acts{display:flex;gap:10px;margin-top:25px}.btn{padding:12px 16px;border:1px solid #30313b;border-radius:8px;text-decoration:none;color:#ddd;font-size:10px}.primary{background:#8b7cff;border-color:#8b7cff}.source{margin-top:18px;color:#555761;font-size:8px}.visual{height:390px;border:1px solid #292a34;border-radius:18px;background:#0f1015;position:relative;display:grid;place-items:center;overflow:hidden}.visual:before,.visual:after{content:"";position:absolute;border:1px solid #39334b;border-radius:50%}.visual:before{width:180px;height:180px}.visual:after{width:310px;height:310px}.core{z-index:2;width:80px;height:80px;border-radius:50%;border:1px solid #8b7cff;background:#17131f;display:grid;place-items:center;color:#aaa2ff;font:700 12px "Space Grotesk"}.tag{position:absolute;bottom:20px;color:#555761;font:700 8px "Space Grotesk";letter-spacing:.12em}.sec{padding:105px 30px;scroll-margin-top:30px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:28px}.card,.box{border:1px solid #292a34;background:#0f1015;border-radius:14px;padding:23px}.card h3,.box h3{font:600 20px "Space Grotesk";margin:8px 0}.card p,.box p,.box li{color:#777984;font-size:10px;line-height:1.9}.idx{color:#9a90ed;font:700 9px "Space Grotesk"}.split{display:grid;grid-template-columns:1fr 1fr;gap:12px}.flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:22px}.flow span{padding:13px 15px;border:1px solid #332e48;border-radius:8px;color:#aaa2ff;font-size:9px}.flow b{color:#555761}.table{border:1px solid #292a34;border-radius:12px;overflow:hidden;margin-top:22px}.table div{display:grid;grid-template-columns:1fr 2fr 1.3fr;padding:12px 14px;border-bottom:1px solid #23242b;color:#888a93;font-size:9px}.table .head{color:#aaa2ff;background:#13131a;font-weight:700}.safety{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.haz{border:1px solid #292a34;background:#0f1015;border-radius:12px;padding:18px}.haz .sym{font-size:25px}.haz h3{font:600 14px "Space Grotesk"}.haz p{font-size:9px;color:#777984;line-height:1.7}.research{display:grid;grid-template-columns:repeat(6,1fr);gap:8px}.step{border:1px solid #292a34;background:#0f1015;border-radius:12px;padding:15px;min-height:130px}.step b{font:700 8px "Space Grotesk";color:#9a90ed}.step h3{font:600 13px "Space Grotesk"}.step p{font-size:8px;color:#777984;line-height:1.7}.lab{margin-top:15px;padding:22px;border:1px solid #332e48;background:#111018;border-radius:14px}.lab input{accent-color:#8b7cff;width:180px}.result{color:#aaa2ff;font:600 11px "Space Grotesk";margin-top:12px}.states{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:25px}.state{height:185px;border:1px solid #292a34;border-radius:14px;padding:18px;position:relative;overflow:hidden;background:#0f1015}.dots{position:absolute;inset:70px 25px 20px;display:grid;grid-template-columns:repeat(5,1fr);gap:14px;align-content:center}.dot{width:11px;height:11px;border-radius:50%;background:#aaa2ff}.gas .dots{gap:34px}.phase{height:310px;border:1px solid #292a34;border-radius:14px;background:#0f1015;position:relative;margin-top:20px}.axisx{position:absolute;left:55px;right:20px;bottom:35px;border-top:1px solid #555761}.axisy{position:absolute;left:55px;top:20px;bottom:35px;border-left:1px solid #555761}.curve{position:absolute;left:85px;bottom:68px;width:72%;height:165px;border-left:2px solid #8b7cff;border-bottom:2px solid #8b7cff;transform:skewY(-7deg)}.label{position:absolute;color:#777984;font-size:8px}.quiz{max-width:900px;border:1px solid #292a34;background:#0f1015;border-radius:14px;padding:24px}.qtop{display:flex;gap:12px;align-items:center;color:#777984;font-size:8px}.bar{flex:1;height:3px;background:#292a34}.bar i{display:block;height:100%;background:#8b7cff;width:0}.answers{display:grid;grid-template-columns:1fr 1fr;gap:8px}.answers button{padding:11px;border:1px solid #292a34;background:#12131a;color:#888a93;border-radius:8px;cursor:pointer;font-size:9px}.feedback{min-height:18px;color:#aaa2ff;font-size:9px}.note{padding:15px;border-left:2px solid #8b7cff;background:#14121c;color:#777984;font-size:9px;line-height:1.8}.practice{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}@media(max-width:900px){.hero,.split{grid-template-columns:1fr}.cards,.practice{grid-template-columns:1fr 1fr}.safety{grid-template-columns:1fr 1fr}.research{grid-template-columns:repeat(3,1fr)}.states{grid-template-columns:1fr}}@media(max-width:560px){.cards,.practice,.safety,.research{grid-template-columns:1fr}.answers{grid-template-columns:1fr}.hero h1,.sec h2{letter-spacing:-2px}.sec,.cp{padding-left:20px;padding-right:20px}}
+body {
+    font-family: Inter, "Noto Sans Bengali", sans-serif
+}
+
+.cp {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px
+}
+
+.hero {
+    min-height: 620px;
+    display: grid;
+    grid-template-columns: 1.1fr .9fr;
+    align-items: center;
+    gap: 40px
+}
+
+.ey {
+    font: 700 9px "Space Grotesk";
+    letter-spacing: .16em;
+    color: #9a90ed
+}
+
+.hero h1,
+.sec h2 {
+    font: 700 clamp(45px, 7vw, 85px) "Space Grotesk";
+    line-height: .95;
+    letter-spacing: -4px;
+    margin: 16px 0
+}
+
+.hero h1 em,
+.sec h2 em {
+    font-style: normal;
+    color: #aaa2ff
+}
+
+.en {
+    font: 600 13px "Space Grotesk";
+    color: #777984
+}
+
+.lead {
+    max-width: 760px;
+    color: #85868f;
+    line-height: 1.9;
+    font-size: 12px
+}
+
+.acts {
+    display: flex;
+    gap: 10px;
+    margin-top: 25px
+}
+
+.btn {
+    padding: 12px 16px;
+    border: 1px solid #30313b;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #ddd;
+    font-size: 10px
+}
+
+.primary {
+    background: #8b7cff;
+    border-color: #8b7cff
+}
+
+.source {
+    margin-top: 18px;
+    color: #555761;
+    font-size: 8px
+}
+
+.visual {
+    height: 390px;
+    border: 1px solid #292a34;
+    border-radius: 18px;
+    background: #0f1015;
+    position: relative;
+    display: grid;
+    place-items: center;
+    overflow: hidden
+}
+
+.visual:before,
+.visual:after {
+    content: "";
+    position: absolute;
+    border: 1px solid #39334b;
+    border-radius: 50%
+}
+
+.visual:before {
+    width: 180px;
+    height: 180px
+}
+
+.visual:after {
+    width: 310px;
+    height: 310px
+}
+
+.core {
+    z-index: 2;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid #8b7cff;
+    background: #17131f;
+    display: grid;
+    place-items: center;
+    color: #aaa2ff;
+    font: 700 12px "Space Grotesk"
+}
+
+.tag {
+    position: absolute;
+    bottom: 20px;
+    color: #555761;
+    font: 700 8px "Space Grotesk";
+    letter-spacing: .12em
+}
+
+.sec {
+    padding: 105px 30px;
+    scroll-margin-top: 30px
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 28px
+}
+
+.card,
+.box {
+    border: 1px solid #292a34;
+    background: #0f1015;
+    border-radius: 14px;
+    padding: 23px
+}
+
+.card h3,
+.box h3 {
+    font: 600 20px "Space Grotesk";
+    margin: 8px 0
+}
+
+.card p,
+.box p,
+.box li {
+    color: #777984;
+    font-size: 10px;
+    line-height: 1.9
+}
+
+.idx {
+    color: #9a90ed;
+    font: 700 9px "Space Grotesk"
+}
+
+.split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px
+}
+
+.flow {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    margin-top: 22px
+}
+
+.flow span {
+    padding: 13px 15px;
+    border: 1px solid #332e48;
+    border-radius: 8px;
+    color: #aaa2ff;
+    font-size: 9px
+}
+
+.flow b {
+    color: #555761
+}
+
+.table {
+    border: 1px solid #292a34;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-top: 22px
+}
+
+.table div {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1.3fr;
+    padding: 12px 14px;
+    border-bottom: 1px solid #23242b;
+    color: #888a93;
+    font-size: 9px
+}
+
+.table .head {
+    color: #aaa2ff;
+    background: #13131a;
+    font-weight: 700
+}
+
+.safety {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px
+}
+
+.haz {
+    border: 1px solid #292a34;
+    background: #0f1015;
+    border-radius: 12px;
+    padding: 18px
+}
+
+.haz .sym {
+    font-size: 25px
+}
+
+.haz h3 {
+    font: 600 14px "Space Grotesk"
+}
+
+.haz p {
+    font-size: 9px;
+    color: #777984;
+    line-height: 1.7
+}
+
+.research {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 8px
+}
+
+.step {
+    border: 1px solid #292a34;
+    background: #0f1015;
+    border-radius: 12px;
+    padding: 15px;
+    min-height: 130px
+}
+
+.step b {
+    font: 700 8px "Space Grotesk";
+    color: #9a90ed
+}
+
+.step h3 {
+    font: 600 13px "Space Grotesk"
+}
+
+.step p {
+    font-size: 8px;
+    color: #777984;
+    line-height: 1.7
+}
+
+.lab {
+    margin-top: 15px;
+    padding: 22px;
+    border: 1px solid #332e48;
+    background: #111018;
+    border-radius: 14px
+}
+
+.lab input {
+    accent-color: #8b7cff;
+    width: 180px
+}
+
+.result {
+    color: #aaa2ff;
+    font: 600 11px "Space Grotesk";
+    margin-top: 12px
+}
+
+.states {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 25px
+}
+
+.state {
+    height: 185px;
+    border: 1px solid #292a34;
+    border-radius: 14px;
+    padding: 18px;
+    position: relative;
+    overflow: hidden;
+    background: #0f1015
+}
+
+.dots {
+    position: absolute;
+    inset: 70px 25px 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 14px;
+    align-content: center
+}
+
+.dot {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #aaa2ff
+}
+
+.gas .dots {
+    gap: 34px
+}
+
+.phase {
+    height: 310px;
+    border: 1px solid #292a34;
+    border-radius: 14px;
+    background: #0f1015;
+    position: relative;
+    margin-top: 20px
+}
+
+.axisx {
+    position: absolute;
+    left: 55px;
+    right: 20px;
+    bottom: 35px;
+    border-top: 1px solid #555761
+}
+
+.axisy {
+    position: absolute;
+    left: 55px;
+    top: 20px;
+    bottom: 35px;
+    border-left: 1px solid #555761
+}
+
+.curve {
+    position: absolute;
+    left: 85px;
+    bottom: 68px;
+    width: 72%;
+    height: 165px;
+    border-left: 2px solid #8b7cff;
+    border-bottom: 2px solid #8b7cff;
+    transform: skewY(-7deg)
+}
+
+.label {
+    position: absolute;
+    color: #777984;
+    font-size: 8px
+}
+
+.quiz {
+    max-width: 900px;
+    border: 1px solid #292a34;
+    background: #0f1015;
+    border-radius: 14px;
+    padding: 24px
+}
+
+.qtop {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    color: #777984;
+    font-size: 8px
+}
+
+.bar {
+    flex: 1;
+    height: 3px;
+    background: #292a34
+}
+
+.bar i {
+    display: block;
+    height: 100%;
+    background: #8b7cff;
+    width: 0
+}
+
+.answers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px
+}
+
+.answers button {
+    padding: 11px;
+    border: 1px solid #292a34;
+    background: #12131a;
+    color: #888a93;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 9px
+}
+
+.feedback {
+    min-height: 18px;
+    color: #aaa2ff;
+    font-size: 9px
+}
+
+.note {
+    padding: 15px;
+    border-left: 2px solid #8b7cff;
+    background: #14121c;
+    color: #777984;
+    font-size: 9px;
+    line-height: 1.8
+}
+
+.practice {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px
+}
+
+@media(max-width:900px) {
+
+    .hero,
+    .split {
+        grid-template-columns: 1fr
+    }
+
+    .cards,
+    .practice {
+        grid-template-columns: 1fr 1fr
+    }
+
+    .safety {
+        grid-template-columns: 1fr 1fr
+    }
+
+    .research {
+        grid-template-columns: repeat(3, 1fr)
+    }
+
+    .states {
+        grid-template-columns: 1fr
+    }
+}
+
+@media(max-width:560px) {
+
+    .cards,
+    .practice,
+    .safety,
+    .research {
+        grid-template-columns: 1fr
+    }
+
+    .answers {
+        grid-template-columns: 1fr
+    }
+
+    .hero h1,
+    .sec h2 {
+        letter-spacing: -2px
+    }
+
+    .sec,
+    .cp {
+        padding-left: 20px;
+        padding-right: 20px
+    }
+}
